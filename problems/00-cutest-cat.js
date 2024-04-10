@@ -12,6 +12,7 @@ function cutestCat(cats) {
     const cat = cats[i];
     if (cat.cuteness > cutest) {
       cutest = cat.cuteness;
+  
     }
     i++;
   }
